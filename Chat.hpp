@@ -14,6 +14,10 @@ public:
         cout<<"miaou"<<endl;
     }
 
+    string saluer() const override{
+        return "hey";
+    }
+
 
 private:
     std::string typeChat;

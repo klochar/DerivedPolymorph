@@ -10,6 +10,9 @@ public:
     void crier() const override{
         cout<<"woof"<<endl;
     }
+    string saluer() const override{
+        return "hello";
+    }
 
 
 

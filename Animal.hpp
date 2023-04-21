@@ -23,6 +23,7 @@ protected:
     void setNom(string);
     void setNbYeux(int);
     virtual void crier() const =0;
+    virtual string saluer() const =0;
 
 
 
